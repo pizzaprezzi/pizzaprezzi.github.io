@@ -76,7 +76,7 @@
 </div>
 <div class="container">
 <ul class="nav nav-tabs">
-	<li ng-repeat="c in entity.Categories"><a data-toggle="tab" href="#{{ c.Alias }}" ng-class="{'active':'paolo' === 'paolo'}">{{ c.Name }}</a></li>
+	<li ng-repeat="c in entity.Categories" ng-class="{'active':'paolo' === 'paolo'}"><a data-toggle="tab" href="#{{ c.Alias }}">{{ c.Name }}</a></li>
 	<li><a data-toggle="tab" href="#home">test</a></li>
 </ul>
 
