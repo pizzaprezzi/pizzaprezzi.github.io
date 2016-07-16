@@ -105,7 +105,19 @@
 	</div>
 </div>
 </div>
+<div class="carousel" id="slider" style="margin-left: 20px;">
 
+    <label class="labelSecurity">Incident Photos</label><br />
+
+    <div class="carousel-inner">
+        <div class="item" ng-class="{active:!$index}" ng-repeat="photo in GalleryMenu">
+            <img src="{{ photo.Link }}" class="img-responsive">
+        </div>
+    </div>
+
+    <a class="carousel-control right" href="#slider" data-slide="next"></a>
+
+</div>
 <div ng-include="'../clausola.html'"></div>
 <div ng-include="'../firma.html'"></div>  
   
