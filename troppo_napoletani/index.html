@@ -97,7 +97,7 @@
 				<tr ng-repeat="p in c.Entities">
 					<td>{{ p.Name }}</td>
 					<td><small ng-repeat="i in p.Items">{{ i.Value }},</small></td>
-					<td ng-repeat="pr in p.Prices">{{ p.Value }}</td>
+					<td ng-repeat="pr in p.Prices">{{ pr.Value }}</td>
 				</tr>
 			</tbody>    
 		</table>
