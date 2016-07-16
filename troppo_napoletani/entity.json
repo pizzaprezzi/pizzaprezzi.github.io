@@ -11,71 +11,31 @@
       {
          "Name":"Le nostre pizze",
          "Alias":"pizze",
-         "Image":"",
-         "Items":[
-            {
-               "Value":"",
-               "Image":""
-            }
-         ],
          "Entities":[
             {
-               "Name":"Margherita",
-               "Image":"",
+               "Name":"1) 'A Marinara",
                "Items":[
                   {
-                     "Value":"Mozzarella",
-                     "Image":""
+                     "Value":"Pomodoro"
                   },
                   {
-                     "Value":"olio, basilico",
-                     "Image":""
+                     "Value":"Origano"
+                  },     
+                  {
+                     "Value":"Aglio"
+                  },                   
+                  {
+                     "Value":"Olio"
+                  },
+                  {
+                     "Value":"Basilico"
                   }
+
                ],
                "Prices":[
                   {
-                     "Note":"normale",
-                     "Price":5.0
-                  },
-                  {
-                     "Note":"gigante",
-                     "Price":7.0
-                  }
-               ],
-               "Gallery":[
-                  {
-                     "Link":"",
-                     "Note":""
-                  }
-               ]
-            },
-            {
-               "Name":"Margherita",
-               "Image":"",
-               "Items":[
-                  {
-                     "Value":"",
-                     "Image":""
-                  },
-                  {
-                     "Value":"",
-                     "Image":""
-                  }
-               ],
-               "Prices":[
-                  {
-                     "Note":"normale",
-                     "Price":5.0
-                  },
-                  {
-                     "Note":"gigante",
-                     "Price":7.0
-                  }
-               ],
-               "Gallery":[
-                  {
-                     "Link":"",
-                     "Note":""
+                     "Note":"Prezzo",
+                     "Price":3.00
                   }
                ]
             }
