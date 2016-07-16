@@ -1,4 +1,4 @@
-{
+{  
    "Version":1,
    "Name":"Troppo Napoletani",
    "Alias":"troppo_napoletani",
@@ -7,60 +7,64 @@
    "Latitude":"45.612774",
    "Longitude":"9.205353",
    "Website":"https://www.facebook.com/tropponapoletanipizzeria",
-   "Contact":[
-      {
+   "Contact":[  
+      {  
          "Value":"0362 050911"
       }
    ],
-   "GalleryMenu":[
-      {
+   "GalleryMenu":[  
+      {  
          "Link":"page1.png",
          "Note":""
       },
-      {
+      {  
          "Link":"page2.png",
          "Note":""
       }
    ],
-   "Categories":[
-      {
+   "Categories":[  
+      {  
          "Name":"Le nostre pizze",
          "Alias":"pizze",
-         "Entities":[
-            {
+         "Prices":[  
+            {  
+               "Value":"Prezzo"
+            }
+         ],
+         "Entities":[  
+            {  
                "Name":"1) 'A Marinara",
-               "Items":[
-                  {
+               "Items":[  
+                  {  
                      "Value":"Pomodoro"
                   },
-                  {
+                  {  
                      "Value":"Origano"
                   },
-                  {
+                  {  
                      "Value":"Aglio"
                   },
-                  {
+                  {  
                      "Value":"Olio"
                   },
-                  {
+                  {  
                      "Value":"Basilico"
                   }
                ],
-               "Prices":[
-                  {
-                     "Note":"Prezzo",
+               "Prices":[  
+                  {  
                      "Price":3.00
                   }
                ]
             }
          ]
       },
-      {
+      {  
          "Name":"Calzoni",
          "Alias":"calzoni",
          "Image":"",
-         "Items":[
-            {
+         "Items":[  
+            {  
                "Value":"",
                "Image":""
             }
