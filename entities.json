@@ -10,7 +10,7 @@
   "Site": "tropponapoletanipizzeria",
   "Categories": [
     {
-      "Value": "categoria",
+      "Name": "categoria1",
       "Image": "",
       "Items": [
         {
@@ -20,7 +20,7 @@
       ]
     },
     {
-      "Value": "categoria",
+      "Name": "categoria2",
       "Image": "",
       "Items": [
         {
