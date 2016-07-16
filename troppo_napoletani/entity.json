@@ -7,6 +7,21 @@
    "Latitude":"45.612774",
    "Longitude":"9.205353",
    "Website":"https://www.facebook.com/tropponapoletanipizzeria",
+   "Contact":[
+      {
+         "Value":"0362 050911"
+      }
+   ],
+   "GalleryMenu":[
+      {
+         "Link":"page1.png",
+         "Note":""
+      },
+      {
+         "Link":"page2.png",
+         "Note":""
+      }
+   ],
    "Categories":[
       {
          "Name":"Le nostre pizze",
@@ -20,17 +35,16 @@
                   },
                   {
                      "Value":"Origano"
-                  },     
+                  },
                   {
                      "Value":"Aglio"
-                  },                   
+                  },
                   {
                      "Value":"Olio"
                   },
                   {
                      "Value":"Basilico"
                   }
-
                ],
                "Prices":[
                   {
