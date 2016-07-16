@@ -3,10 +3,10 @@
   "Version": 1,
   "Name": "Troppo Napoletani",
   "Alias": "troppo_napoletani",
-  "Note": "note",
-  "Address": "via",
-  "Latitude": "0",
-  "Longitude": "0",
+  "Note": "",
+  "Address": "Via Giuseppe Garibaldi 144 Desio",
+  "Latitude": "45.612774",
+  "Longitude": "9.205353",
   "Categories": [
     {
       "Value": "categoria",
