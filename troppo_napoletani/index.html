@@ -72,7 +72,7 @@
 	
 	<h3>{{ entity.Name }}</h3>
 	<p>{{ entity.Address }}</p>
-	<a ng-repeat="c in entity.Contact" class="btn btn-info" role="button" href="tel:{{ c.value }}">Chiaa</a>
+	<a ng-repeat="c in entity.Contact" class="btn btn-info" role="button" href="tel:{{ c.Value }}">Chiama</a>
 	<a class="btn btn-info" role="button" href="{{ entity.Website }}">Sito WEB</a>
 	<a class="btn btn-info" role="button" href="https://maps.google.it/maps?q={{entity.Latitude}},{{entity.Longitude}}"><i class="fa fa-map-o" aria-hidden="true"></i> Mappa</a>
 </div>
@@ -90,14 +90,14 @@
 			<thead>
 				<tr>
 					<td>Nome</td>
-					<td>colonna2</td>
+					<td>Ingredienti</td>
 					<td>colonna3</td>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="p in c.Entities">
 					<td>{{ p.Name }}</td>
-					<td></td>
+					<td><small ng-repeat="i in p.Items">{{ i.Value }},</small></td>
 					<td></td>
 				</tr>
 			</tbody>    
