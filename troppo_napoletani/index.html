@@ -76,16 +76,31 @@
 </div>
 <div class="container">
 <ul class="nav nav-tabs">
-	<li ng-repeat="c in entity.Categories"><a data-toggle="tab" href="#{{ c.Name }}">{{ c.Name }}</a></li>
+	<li ng-repeat="c in entity.Categories"><a data-toggle="tab" href="#{{ c.Alias }}">{{ c.Name }}</a></li>
 	<li><a data-toggle="tab" href="#home">test</a></li>
 </ul>
 
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h3>HOME</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-    </div>
-  </div>
+<div class="tab-content">
+	<div id="{{ c.Alias }}" class="tab-pane fade in active"  ng-repeat="c in entity.Categories">
+		<h3>{{ c.Name }}</h3>
+		<table class="table table-bordered table-striped">
+			<thead>
+				<tr>
+					<td>Nome</td>
+					<td>colonna2</td>
+					<td>colonna3</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr ng-repeat="p in c.Entities">
+					<td>{{ p.Name }}</td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>    
+		</table>
+	</div>
+</div>
 </div>
 
 <div ng-include="'../clausola.html'"></div>
