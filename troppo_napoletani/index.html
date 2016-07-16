@@ -68,7 +68,8 @@
 </nav>
 <!-- fine menu -->
 <div class="page-header" style="margin-top: 5px;margin-bottom: 5px;">
-	<a class="btn btn-info pull-right" role="button" href="{{ entity.Site }}">Sito WEB</a>
+	<a class="btn btn-info pull-right" role="button" href="{{ entity.Website }}">Sito WEB</a>
+	<a class="btn btn-info pull-right" role="button" href="https://maps.google.it/maps?q={{entity.Latitude}},{{entity.Longitude}}"><i class="fa fa-map-o" aria-hidden="true"></i> Mappa</a>
 	<h3>{{ entity.Name }}</h3>
 	<p>{{ entity.Address }}</p>
 </div>
