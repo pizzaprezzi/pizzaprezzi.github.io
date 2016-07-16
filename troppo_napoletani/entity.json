@@ -9,7 +9,7 @@
   "Website": "https://www.facebook.com/tropponapoletanipizzeria",  
   "Categories": [
     {
-      "Value": "Le nostre pizze",
+      "Name": "Le nostre pizze",
       "Image": "",
       "Items": [
         {
@@ -19,7 +19,7 @@
       ]
     },
     {
-      "Value": "Calzoni",
+      "Name": "Calzoni",
       "Image": "",
       "Items": [
         {
