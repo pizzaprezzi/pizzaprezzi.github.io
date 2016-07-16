@@ -105,9 +105,9 @@
 	</div>
 </div>
 </div>
-<div class="carousel" id="slider" style="margin-left: 20px;">
-
-    <label class="labelSecurity">Incident Photos</label><br />
+<div class="container">
+<div class="carousel" id="slider">
+    <label>Menu</label><br />
 
     <div class="carousel-inner">
         <div class="item" ng-class="{active:!$index}" ng-repeat="photo in entity.GalleryMenu">
@@ -115,8 +115,16 @@
         </div>
     </div>
 
-    <a class="carousel-control right" href="#slider" data-slide="next"></a>
-
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Indietro</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Avanti</span>
+  </a>
+</div>
 </div>
 <div ng-include="'../clausola.html'"></div>
 <div ng-include="'../firma.html'"></div>  
