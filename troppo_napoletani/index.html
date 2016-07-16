@@ -81,7 +81,7 @@
 </ul>
 
 <div class="tab-content">
-	<div id="{{ c.Alias }}" class="tab-pane fade in active"  ng-repeat="c in entity.Categories">
+	<div id="{{ c.Alias }}" class="tab-pane fade"  ng-repeat="c in entity.Categories" ng-class="{'in active':c.Alias === entity.Categories[0].Alias}">
 		<h3>{{ c.Name }}</h3>
 		<table class="table table-bordered table-striped">
 			<thead>
