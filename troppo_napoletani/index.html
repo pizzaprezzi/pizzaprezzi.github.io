@@ -67,15 +67,13 @@
 	</div>
 </nav>
 <!-- fine menu -->
+<div class="page-header" style="margin-top: 5px;margin-bottom: 5px;">
+	<a class="btn btn-info pull-right" role="button" href="{{ entity.Site }}">Sito WEB</a>
+	<h3>{{ entity.Name }}</h3>
+	<p>{{ entity.Address }}</p>
+</div>
 
-            <div class="page-header" style="margin-top: 5px;margin-bottom: 5px;">
-           <a class="btn btn-info pull-right" role="button" href="{{ entity.Site }}">Sito WEB</a>
- 
-           <h3>{{ entity.Name }}</h3>
-           <p>{{ entity.Address }}</p>
-           <p>{{ entity.Site }}</p>
-            </div>
-        </div>
+</div>
 
 
 <div ng-include="'../clausola.html'"></div>
