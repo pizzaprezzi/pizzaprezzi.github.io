@@ -1,104 +1,29 @@
 ﻿[
-{
-  "Version": 1,
-  "Name": "Troppo Napoletani",
-  "Alias": "troppo_napoletani",
-  "Note": "",
-  "Address": "Via Giuseppe Garibaldi 144 Desio",
-  "Latitude": "45.612774",
-  "Longitude": "9.205353",
-  "Site": "tropponapoletanipizzeria",
-  "Categories": [
-    {
-      "Name": "categoria1",
-      "Image": "",
-      "Items": [
-        {
-          "Value": "",
-          "Image": ""
-        }
-      ]
-    },
-    {
-      "Name": "categoria2",
-      "Image": "",
-      "Items": [
-        {
-          "Value": "",
-          "Image": ""
-        }
-      ]
-    }
-  ],
-  "Entities": [
-    {
-      "Category": {
-        "Value": "",
-        "Image": ""
-      },
-      "Name": "Margherita",
-      "Image": "",
-      "Items": [
-        {
-          "Value": "",
-          "Image": ""
-        },
-        {
-          "Value": "",
-          "Image": ""
-        }
-      ],
-      "Prices": [
-        {
-          "Note": "normale",
-          "Price": 5.0
-        },
-        {
-          "Note": "gigante",
-          "Price": 7.0
-        }
-      ],
-      "Gallery": [
-        {
-          "Link": "",
-          "Note": ""
-        }
-      ]
-    },
-    {
-      "Category": {
-        "Value": "",
-        "Image": ""
-      },
-      "Name": "Margherita",
-      "Image": "",
-      "Items": [
-        {
-          "Value": "",
-          "Image": ""
-        },
-        {
-          "Value": "",
-          "Image": ""
-        }
-      ],
-      "Prices": [
-        {
-          "Note": "normale",
-          "Price": 5.0
-        },
-        {
-          "Note": "gigante",
-          "Price": 7.0
-        }
-      ],
-      "Gallery": [
-        {
-          "Link": "",
-          "Note": ""
-        }
-      ]
-    }
-  ]
-}
+  {
+    "Version": 1,
+    "Name": "Al Presidente",
+    "Alias": "alpresidente",
+    "Note": "",
+    "Address": "Via Pallavicini 42/B Desio",
+    "Latitude": "45.618737",
+    "Longitude": "9.1970984",
+    "Website": "https://www.facebook.com/Al-Presidente-625461680839276",
+    "Contact": [
+      "0362629985",
+      "3899947966"
+    ]
+  },
+  {
+    "Version": 1,
+    "Name": "Troppo Napoletani",
+    "Alias": "troppo_napoletani",
+    "Note": "",
+    "Address": "Via Giuseppe Garibaldi 144 Desio",
+    "Latitude": "45.612774",
+    "Longitude": "9.205353",
+    "Website": "https://www.facebook.com/tropponapoletanipizzeria",
+    "Contact": [
+      "0362 050911"
+    ]
+  }
 ]

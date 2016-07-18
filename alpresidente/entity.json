@@ -1,0 +1,1205 @@
+﻿{
+  "Version": 1,
+  "Name": "Al Presidente",
+  "Alias": "alpresidente",
+  "Note": "",
+  "Address": "Via Pallavicini 42/B Desio",
+  "Latitude": "45.618737",
+  "Longitude": "9.1970984",
+  "Website": "https://www.facebook.com/Al-Presidente-625461680839276",
+  "Contact": [
+    "0362629985",
+    "3899947966"
+  ],
+  "GalleryMenu": [
+    {
+      "Link": "page1.png",
+      "Note": ""
+    },
+    {
+      "Link": "page2.png",
+      "Note": ""
+    },
+    {
+      "Link": "page3.png",
+      "Note": ""
+    },
+    {
+      "Link": "page4.png",
+      "Note": ""
+    },
+    {
+      "Link": "page5.png",
+      "Note": ""
+    },
+    {
+      "Link": "page6.png",
+      "Note": ""
+    },
+    {
+      "Link": "page7.png",
+      "Note": ""
+    },
+    {
+      "Link": "page8.png",
+      "Note": ""
+    }
+  ],
+  "Categories": [
+    {
+      "Name": "Pizze",
+      "Alias": "pizze",
+      "Entities": [
+        {
+          "Name": "5 Stagioni",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Funghi",
+            "Zola",
+            "Funghi porcini",
+            "Crudo"
+          ],
+          "Prices": [
+            7.5
+          ]
+        },
+        {
+          "Name": "Al Presidente",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Funghi Porcini",
+            "Speck",
+            "Mascarpone"
+          ],
+          "Prices": [
+            6.5
+          ]
+        },
+        {
+          "Name": "Americana",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Wurstel",
+            "Patatine"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Biancaneve",
+          "Items": [
+            "Mozzarella"
+          ],
+          "Prices": [
+            3.0
+          ]
+        },
+        {
+          "Name": "Bismark",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Uovo",
+            "Pancetta"
+          ],
+          "Prices": [
+            4.6
+          ]
+        },
+        {
+          "Name": "Bosco",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Funghi Porcini",
+            "Bresaola"
+          ],
+          "Prices": [
+            6.7
+          ]
+        },
+        {
+          "Name": "Braccio di ferro",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Spinaci"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Briky",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Funghi porcini",
+            "Brie"
+          ],
+          "Prices": [
+            6.5
+          ]
+        },
+        {
+          "Name": "Calabrese",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Salame Piccante"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Calzone Orazio",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Emmenthal",
+            "Brie",
+            "Bresaola"
+          ],
+          "Prices": [
+            7.5
+          ]
+        },
+        {
+          "Name": "Calzonissimo",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto",
+            "Funghi",
+            "Carciofi",
+            "Salame"
+          ],
+          "Prices": [
+            12.0
+          ]
+        },
+        {
+          "Name": "Capricciosa",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Funghi",
+            "Capriccio",
+            "Olive",
+            "Prosciutto"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Carola",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Brie",
+            "Speck"
+          ],
+          "Prices": [
+            6.5
+          ]
+        },
+        {
+          "Name": "Cime di rapa",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Salame",
+            "Cime di rapa"
+          ],
+          "Prices": [
+            6.0
+          ]
+        },
+        {
+          "Name": "Claudione",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Salame",
+            "Pancetta",
+            "Polpa di granchio",
+            "Gamberetti",
+            "Zola",
+            "Salsiccia"
+          ],
+          "Prices": [
+            9.0
+          ]
+        },
+        {
+          "Name": "Contadina",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Asparagi",
+            "Uova",
+            "Funghi Porcini"
+          ],
+          "Prices": [
+            6.2
+          ]
+        },
+        {
+          "Name": "Cristian",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Pancetta",
+            "Salsiccia",
+            "Funghi porcini",
+            "Cipolla",
+            "Brie"
+          ],
+          "Prices": [
+            8.0
+          ]
+        },
+        {
+          "Name": "Delicata",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Ricotta",
+            "Speck"
+          ],
+          "Prices": [
+            6.2
+          ]
+        },
+        {
+          "Name": "Deliziona",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Zola",
+            "Carciofi"
+          ],
+          "Prices": [
+            5.2
+          ]
+        },
+        {
+          "Name": "Egiziana",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Zola",
+            "Melanzane"
+          ],
+          "Prices": [
+            5.2
+          ]
+        },
+        {
+          "Name": "El puerco",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto",
+            "Salame",
+            "Wurstel",
+            "Salsiccia"
+          ],
+          "Prices": [
+            8.0
+          ]
+        },
+        {
+          "Name": "Esotica",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Cuore di palma",
+            "Polpa di granchio"
+          ],
+          "Prices": [
+            6.4
+          ]
+        },
+        {
+          "Name": "Frutti di mare",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Frutti di mare",
+            "Aglio",
+            "Prezzemolo"
+          ],
+          "Prices": [
+            6.9
+          ]
+        },
+        {
+          "Name": "Funghi",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Funghi"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Gabriele",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Zola",
+            "Salsiccia",
+            "Patatine"
+          ],
+          "Prices": [
+            6.5
+          ]
+        },
+        {
+          "Name": "Gamberetti",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Gamberetti"
+          ],
+          "Prices": [
+            6.4
+          ]
+        },
+        {
+          "Name": "Genovese",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Pesto"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Gorgonzola",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Zola"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Imperiale",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Gamberetti",
+            "Rucola"
+          ],
+          "Prices": [
+            6.9
+          ]
+        },
+        {
+          "Name": "Margherita",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella"
+          ],
+          "Prices": [
+            3.5
+          ]
+        },
+        {
+          "Name": "Marinara",
+          "Items": [
+            "Pomodoro",
+            "Aglio",
+            "Origano"
+          ],
+          "Prices": [
+            3.0
+          ]
+        },
+        {
+          "Name": "Messicana",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Fagioli",
+            "Peperoni",
+            "Tabasco"
+          ],
+          "Prices": [
+            5.2
+          ]
+        },
+        {
+          "Name": "Micologica",
+          "Items": [
+            "Pomodoro",
+            "Misto funghi di bosco",
+            "Aglio ",
+            "Prezzemolo"
+          ],
+          "Prices": [
+            5.0
+          ]
+        },
+        {
+          "Name": "Monzese",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Salsiccia"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Napoli",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Acciughe",
+            "Origano"
+          ],
+          "Prices": [
+            5.2
+          ]
+        },
+        {
+          "Name": "Norvegese",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Gamberetti",
+            "Salmone",
+            "Olive nere"
+          ],
+          "Prices": [
+            8.0
+          ]
+        },
+        {
+          "Name": "Nostrana",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Tonno",
+            "Olive",
+            "Cipolla",
+            "Acciughe"
+          ],
+          "Prices": [
+            6.5
+          ]
+        },
+        {
+          "Name": "Occhio di bue",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Uovo"
+          ],
+          "Prices": [
+            4.0
+          ]
+        },
+        {
+          "Name": "Pancetta",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Pancetta"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Parma",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto crudo Parma"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Polly",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto",
+            "Panna"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Porcini",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Funghi porcini"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Poul bonnet",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Melanzare",
+            "Prosciutto crudo"
+          ],
+          "Prices": [
+            6.2
+          ]
+        },
+        {
+          "Name": "Prosciutto",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Prosciutto e funghi",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto",
+            "Funghi"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Pugliese",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Cipolla"
+          ],
+          "Prices": [
+            4.0
+          ]
+        },
+        {
+          "Name": "Quattro formaggi",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Zola",
+            "Emmenthal",
+            "Capriccio"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Quattro stagioni",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto",
+            "Funghi",
+            "Carciofi",
+            "Capriccio"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Raggio di sole",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Asparagi",
+            "Uovo"
+          ],
+          "Prices": [
+            5.2
+          ]
+        },
+        {
+          "Name": "Romana",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Acciughe",
+            "Capperi"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Rucola",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Rucola",
+            "Emmenthal"
+          ],
+          "Prices": [
+            6.5
+          ]
+        },
+        {
+          "Name": "Satana",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Salame piccante",
+            "'Nduia",
+            "Peperoni"
+          ],
+          "Prices": [
+            7.5
+          ]
+        },
+        {
+          "Name": "Sicilia",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Acciughe",
+            "Capperi",
+            "Olive"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Silvia",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto",
+            "Scamorza"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Speedy gonzales",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Pancetta affumicata",
+            "Fagioli",
+            "Peperoni",
+            "Peperoncino"
+          ],
+          "Prices": [
+            6.5
+          ]
+        },
+        {
+          "Name": "Superba",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Salmone"
+          ],
+          "Prices": [
+            7.5
+          ]
+        },
+        {
+          "Name": "Svizzera",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Emmenthal"
+          ],
+          "Prices": [
+            4.9
+          ]
+        },
+        {
+          "Name": "Tartufona",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Funghi porcini",
+            "Tartufo"
+          ],
+          "Prices": [
+            7.5
+          ]
+        },
+        {
+          "Name": "Tirolese",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Crauti",
+            "Pancetta",
+            "Wurstel"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Tonno",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Tonno"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Vale",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Emmenthal",
+            "Brie",
+            "Bresaola"
+          ],
+          "Prices": [
+            6.5
+          ]
+        },
+        {
+          "Name": "Valtellinese",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Funghi porcini",
+            "Bresaola",
+            "Rucola"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Vegetale",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Peperoni",
+            "Zucchine",
+            "Melanzane"
+          ],
+          "Prices": [
+            6.0
+          ]
+        },
+        {
+          "Name": "Wurstel",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Wurstel"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Wurstel e funghi",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Wurstel",
+            "Funghi"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Zingara",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Peperoni",
+            "Speck"
+          ],
+          "Prices": [
+            6.2
+          ]
+        }
+      ],
+      "Items": [
+        "Pomodoro",
+        "Mozzarella",
+        "Funghi",
+        "Zola",
+        "Funghi porcini",
+        "Crudo",
+        "Funghi Porcini",
+        "Speck",
+        "Mascarpone",
+        "Wurstel",
+        "Patatine",
+        "Uovo",
+        "Pancetta",
+        "Bresaola",
+        "Spinaci",
+        "Brie",
+        "Salame Piccante",
+        "Emmenthal",
+        "Prosciutto",
+        "Carciofi",
+        "Salame",
+        "Capriccio",
+        "Olive",
+        "Cime di rapa",
+        "Polpa di granchio",
+        "Gamberetti",
+        "Salsiccia",
+        "Asparagi",
+        "Uova",
+        "Cipolla",
+        "Ricotta",
+        "Melanzane",
+        "Cuore di palma",
+        "Frutti di mare",
+        "Aglio",
+        "Prezzemolo",
+        "Pesto",
+        "Rucola",
+        "Origano",
+        "Fagioli",
+        "Peperoni",
+        "Tabasco",
+        "Misto funghi di bosco",
+        "Aglio ",
+        "Acciughe",
+        "Salmone",
+        "Olive nere",
+        "Tonno",
+        "Prosciutto crudo Parma",
+        "Panna",
+        "Melanzare",
+        "Prosciutto crudo",
+        "Capperi",
+        "Salame piccante",
+        "'Nduia",
+        "Scamorza",
+        "Pancetta affumicata",
+        "Peperoncino",
+        "Tartufo",
+        "Crauti",
+        "Zucchine"
+      ]
+    },
+    {
+      "Name": "Calzoni",
+      "Alias": "calzoni",
+      "Entities": [
+        {
+          "Name": "Calzone Delizia",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Ricotta"
+          ],
+          "Prices": [
+            4.6
+          ]
+        },
+        {
+          "Name": "Calzone di Verdure",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Zucchine",
+            "Peperone"
+          ],
+          "Prices": [
+            5.5
+          ]
+        },
+        {
+          "Name": "Calzone Farcito",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto",
+            "Carciofi",
+            "Funghi"
+          ],
+          "Prices": [
+            5.2
+          ]
+        },
+        {
+          "Name": "Calzone Formaggi",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Gorgonzola",
+            "Emmenthal"
+          ],
+          "Prices": [
+            5.2
+          ]
+        },
+        {
+          "Name": "Calzone liscio",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Prosciutto"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Calzone Speciale",
+          "Items": [
+            "Pomodoro",
+            "Mozzarella",
+            "Gamberetti"
+          ],
+          "Prices": [
+            6.2
+          ]
+        }
+      ],
+      "Items": [
+        "Pomodoro",
+        "Mozzarella",
+        "Ricotta",
+        "Zucchine",
+        "Peperone",
+        "Prosciutto",
+        "Carciofi",
+        "Funghi",
+        "Gorgonzola",
+        "Emmenthal",
+        "Gamberetti"
+      ]
+    },
+    {
+      "Name": "Focacce",
+      "Alias": "focacce",
+      "Entities": [
+        {
+          "Name": "Focaccia con nutella",
+          "Items": [
+            "Nutella"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Focaccia farcita",
+          "Items": [
+            "Prosciutto",
+            "Mozzarella",
+            "Capriccio"
+          ],
+          "Prices": [
+            4.3
+          ]
+        },
+        {
+          "Name": "Focaccia liscia",
+          "Items": [
+            "Prosciutto",
+            "Mozzarella"
+          ],
+          "Prices": [
+            3.9
+          ]
+        },
+        {
+          "Name": "Focaccia primavera",
+          "Items": [
+            "Mozzarella",
+            "Pomodoro fresco"
+          ],
+          "Prices": [
+            4.5
+          ]
+        },
+        {
+          "Name": "Focaccia ripiena",
+          "Items": [
+            "Mozzarella",
+            "Prosciutto"
+          ],
+          "Prices": [
+            5.0
+          ]
+        },
+        {
+          "Name": "Focaccia salata",
+          "Items": [
+            "Olio",
+            "Sale",
+            "Origano"
+          ],
+          "Prices": [
+            2.5
+          ]
+        },
+        {
+          "Name": "Focaccia speciale",
+          "Items": [
+            "Mozzarella",
+            "Spinaci",
+            "Ricotta"
+          ],
+          "Prices": [
+            4.3
+          ]
+        },
+        {
+          "Name": "Focaccia zola",
+          "Items": [
+            "Mozzarella",
+            "Zola"
+          ],
+          "Prices": [
+            4.0
+          ]
+        }
+      ],
+      "Items": [
+        "Nutella",
+        "Prosciutto",
+        "Mozzarella",
+        "Capriccio",
+        "Pomodoro fresco",
+        "Olio",
+        "Sale",
+        "Origano",
+        "Spinaci",
+        "Ricotta",
+        "Zola"
+      ]
+    },
+    {
+      "Name": "Stuzzicherie",
+      "Alias": "stuzzicherie",
+      "Entities": [
+        {
+          "Name": "Arancini",
+          "Prices": [
+            2.0
+          ]
+        },
+        {
+          "Name": "Crocchette di patate (11pz)",
+          "Prices": [
+            3.5
+          ]
+        },
+        {
+          "Name": "Hot dog",
+          "Prices": [
+            2.0
+          ]
+        },
+        {
+          "Name": "Panzerotti",
+          "Prices": [
+            2.5
+          ]
+        },
+        {
+          "Name": "Patatine fritte",
+          "Prices": [
+            2.0
+          ]
+        }
+      ],
+      "Items": []
+    },
+    {
+      "Name": "Bibite",
+      "Alias": "bibite",
+      "Entities": [
+        {
+          "Name": "Acqua",
+          "Prices": [
+            1.0
+          ]
+        },
+        {
+          "Name": "Birra Beck's 33cl",
+          "Prices": [
+            2.5
+          ]
+        },
+        {
+          "Name": "Birra Heineken 33cl",
+          "Prices": [
+            2.0
+          ]
+        },
+        {
+          "Name": "Birra Moretti 66cl",
+          "Prices": [
+            2.5
+          ]
+        },
+        {
+          "Name": "Coca cola",
+          "Prices": [
+            1.5
+          ]
+        },
+        {
+          "Name": "Fanta",
+          "Prices": [
+            1.5
+          ]
+        },
+        {
+          "Name": "Sprite",
+          "Prices": [
+            1.5
+          ]
+        },
+        {
+          "Name": "Thé",
+          "Prices": [
+            1.5
+          ]
+        }
+      ],
+      "Items": []
+    }
+  ]
+}
