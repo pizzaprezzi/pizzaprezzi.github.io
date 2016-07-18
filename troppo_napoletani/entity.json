@@ -8,7 +8,9 @@
   "Longitude": "9.205353",
   "Website": "https://www.facebook.com/tropponapoletanipizzeria",
   "Contact": [
-    "0362 050911"
+    {
+      "Value": "0362 050911"
+    }
   ],
   "GalleryMenu": [
     {
@@ -40,15 +42,30 @@
     {
       "Name": "Le nostre Pizze",
       "Alias": "le_nostre_pizze",
+      "Prices": [
+        {
+          "Value": "Prezzo"
+        }
+      ],
       "Entities": [
         {
           "Name": "1) 'A Marinara",
           "Items": [
-            "Pomodoro",
-            "Origano",
-            "Aglio",
-            "Olio",
-            "Basilico"
+            {
+              "Value": "Pomodoro"
+            },
+            {
+              "Value": "Origano"
+            },
+            {
+              "Value": "Aglio"
+            },
+            {
+              "Value": "Olio"
+            },
+            {
+              "Value": "Basilico"
+            }
           ],
           "Prices": [
             3.0
@@ -57,10 +74,18 @@
         {
           "Name": "2) 'A Margherita",
           "Items": [
-            "Pomodoro",
-            "Mozzarella",
-            "Olio",
-            "Basilico"
+            {
+              "Value": "Pomodoro"
+            },
+            {
+              "Value": "Mozzarella"
+            },
+            {
+              "Value": "Olio"
+            },
+            {
+              "Value": "Basilico"
+            }
           ],
           "Prices": [
             3.5
@@ -68,12 +93,24 @@
         }
       ],
       "Items": [
-        "Pomodoro",
-        "Origano",
-        "Aglio",
-        "Olio",
-        "Basilico",
-        "Mozzarella"
+        {
+          "Value": "Pomodoro"
+        },
+        {
+          "Value": "Origano"
+        },
+        {
+          "Value": "Aglio"
+        },
+        {
+          "Value": "Olio"
+        },
+        {
+          "Value": "Basilico"
+        },
+        {
+          "Value": "Mozzarella"
+        }
       ]
     }
   ]

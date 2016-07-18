@@ -9,8 +9,12 @@
     "Longitude": "9.1970984",
     "Website": "https://www.facebook.com/Al-Presidente-625461680839276",
     "Contact": [
-      "0362629985",
-      "3899947966"
+      {
+        "Value": "0362629985"
+      },
+      {
+        "Value": "3899947966"
+      }
     ]
   },
   {
@@ -23,7 +27,9 @@
     "Longitude": "9.205353",
     "Website": "https://www.facebook.com/tropponapoletanipizzeria",
     "Contact": [
-      "0362 050911"
+      {
+        "Value": "0362 050911"
+      }
     ]
   }
 ]
