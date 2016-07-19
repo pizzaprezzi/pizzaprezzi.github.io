@@ -32,6 +32,11 @@ function MyController($scope, $http) {
         });
     };
 
+$scope.removeItem = function(item) { 
+  var index = $scope.cart.indexOf(item);
+  $scope.cart.splice(index, 1);     
+}
+
  $http.get("entity.json")
     .then(function(response) {
         $scope.entity = response.data;
