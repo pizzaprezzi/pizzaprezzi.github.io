@@ -106,7 +106,7 @@
 			</thead>
 			<tbody>
 				<tr ng-repeat="p in c.Entities">
-					<td><button class="btn btn-success" ng-click="addItem()"><i class="fa fa-cart-plus" aria-hidden="true"></i></button></td>
+					<td><button class="btn btn-success" ng-click="addItem(p)"><i class="fa fa-cart-plus" aria-hidden="true"></i></button></td>
 					<td><b>{{ p.Name }}</b><p><small><span ng-repeat="i in p.Items">{{ i.Value }}, </span></small></p></td>
 					<td ng-repeat="pr in p.Prices" align="right">{{ pr.Value| currency  }}</td>
 				</tr>
@@ -132,6 +132,7 @@
 			</tbody>    
 			<thead>
 				<tr>
+					<th></th>
 					<th>Totale</th>
 					<td align="right"><b>{{ getTotal()| currency }}</b></td>
 				</tr>
