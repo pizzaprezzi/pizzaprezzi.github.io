@@ -99,12 +99,14 @@
 		<table class="table table-bordered table-responsive">
 			<thead>
 				<tr>
+					<th></th>
 					<th>Nome</th>
 					<th ng-repeat="p in c.Prices">{{ p.Value }}</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="p in c.Entities">
+					<td><button ng-click="addCart(p.Name,0)">Add</button></td>
 					<td><b>{{ p.Name }}</b><p><small><span ng-repeat="i in p.Items">{{ i.Value }}, </span></small></p></td>
 					<td ng-repeat="pr in p.Prices" align="right">{{ pr.Value| currency  }}</td>
 				</tr>
@@ -116,14 +118,12 @@
 		<table class="table table-bordered table-responsive">
 			<thead>
 				<tr>
-					<th></th>
 					<th>Nome</th>
 					<th>Prezzo</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="c in cart">
-					<td><button ng-click="addCart(c.Name,c.Price)">Add</button></td>
 					<td>{{ c.Name }}</td>
 					<td align="right">{{ c.Price | currency  }}</td>
 				</tr>
