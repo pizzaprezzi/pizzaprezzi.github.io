@@ -90,6 +90,7 @@
 <div class="container">
 <ul class="nav nav-tabs">
 	<li ng-repeat="c in entity.Categories" ng-class="{'active':c.Alias === entity.Categories[0].Alias}"><a data-toggle="tab" href="#{{ c.Alias }}">{{ c.Name }}</a></li>
+	<li><a data-toggle="tab" href="#carrello"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrello</a></li>
 </ul>
 
 <div class="tab-content">
