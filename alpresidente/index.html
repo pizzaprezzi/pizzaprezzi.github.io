@@ -74,10 +74,10 @@
 <div class="page-header" style="margin-top: 5px;margin-bottom: 5px;">
 	
 	
-	<h3>{{ entity.Name }}</h3>
+	<h2>{{ entity.Name }}</h2>
 	<p>{{ entity.Address }}</p>
 	<div class="list-group">
-	  <a href="tel:{{ c.Value }}" ng-repeat="c in entity.Contact" class="list-group-item"><i class="fa fa-phone" aria-hidden="true"></i>Chiama {{ c.Value }}</a>
+	  <a href="tel:{{ c.Value }}" ng-repeat="c in entity.Contact" class="list-group-item"><i class="fa fa-phone" aria-hidden="true"></i> <h4>Chiama {{ c.Value }}</h4></a>
 	</div>	
 	<a class="btn btn-info" role="button" href="{{ entity.Website }}">Sito WEB</a>
 	<a class="btn btn-info" role="button" href="https://maps.google.it/maps?q={{entity.Latitude}},{{entity.Longitude}}"><i class="fa fa-map-o" aria-hidden="true"></i> Mappa</a><br />
