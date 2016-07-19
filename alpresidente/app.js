@@ -25,6 +25,7 @@ function MyController($scope, $http) {
 }
 
 $scope.addItem = function (Name,Price) {
+	console.log('test');
 	$scope.cart.push({
         Name: Name,
         Price: Price
