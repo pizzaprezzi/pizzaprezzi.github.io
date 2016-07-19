@@ -24,7 +24,7 @@ function MyController($scope, $http) {
     return total;
 }
 
-$scope.addItem = function ()) {
+$scope.addItem = function () {
 	console.log('test');
 	$scope.cart.push({
         Name: Name,
