@@ -123,7 +123,7 @@
 			<tbody>
 				<tr ng-repeat="c in cart">
 					<td>{{ c.Name }}</td>
-					<td>{{ c.Price }}</td>
+					<td align="right">{{ c.Price | currency  }}</td>
 				</tr>
 			</tbody>    
 		</table>
