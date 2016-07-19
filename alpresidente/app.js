@@ -6,7 +6,10 @@ function MyController($scope, $http) {
 
   $scope.currentPage = 1;
   $scope.pageSize = 20;
-  $scope.cart = [];
+  $scope.cart = [{
+            "Name" : "Demo",
+            "Price" : 10
+        }];
  
 
  $http.get("entity.json")
