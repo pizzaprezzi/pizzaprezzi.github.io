@@ -15,6 +15,15 @@ function MyController($scope, $http) {
             "Price" : 5
         }];
  
+ $scope.getTotal = function(){
+    var total = 0;
+    for(var i = 0; i < $scope.cart.length; i++){
+        var product = $scope.cart[i];
+        total += (product.Price);
+    }
+    return total;
+}
+ 
 
  $http.get("entity.json")
     .then(function(response) {
