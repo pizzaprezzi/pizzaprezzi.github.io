@@ -23,7 +23,13 @@ function MyController($scope, $http) {
     }
     return total;
 }
- 
+
+$scope.addItem = function (Name,Price) {
+	$scope.cart.push({
+        Name: Name,
+        Price: Price
+    });
+} 
 
  $http.get("entity.json")
     .then(function(response) {
@@ -42,12 +48,7 @@ function OtherController($scope) {
   };
 }
 
-$scope.addItem = function (Name,Price) {
-	$scope.cart.push({
-        Name: Name,
-        Price: Price
-    });
-}
+
 
 
 myApp.controller('MyController', MyController);
