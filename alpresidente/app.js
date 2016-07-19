@@ -42,5 +42,13 @@ function OtherController($scope) {
   };
 }
 
+function addCart(Name,Price) {
+	$scope.cart.push({
+        Name: Name,
+        Price: Price
+    });
+}
+
+
 myApp.controller('MyController', MyController);
 myApp.controller('OtherController', OtherController);
