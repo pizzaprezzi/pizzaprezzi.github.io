@@ -118,12 +118,14 @@
 		<table class="table table-bordered table-responsive">
 			<thead>
 				<tr>
+					<th></th>
 					<th>Nome</th>
 					<th>Prezzo</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="c in cart">
+					<td><button class="btn btn-danger" ng-click="removeItem()"><i class="fa fa-cart-minus" aria-hidden="true"></i></button></td>
 					<td>{{ c.Name }}</td>
 					<td align="right">{{ c.Price | currency  }}</td>
 				</tr>
