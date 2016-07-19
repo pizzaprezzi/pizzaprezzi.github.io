@@ -24,11 +24,11 @@ function MyController($scope, $http) {
     return total;
 }
 
- $scope.addItem = function (item) {
-	console.log("ciao");
+ $scope.addItem = function (item,pr) {
+
         $scope.cart.push({
             Name: item.Name,
-            Price: 1
+            Price:pr.Value
         });
     };
 
