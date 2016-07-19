@@ -116,17 +116,20 @@
 		<table class="table table-bordered table-responsive">
 			<thead>
 				<tr>
+					<th></th>
 					<th>Nome</th>
 					<th>Prezzo</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="c in cart">
+					<td><button ng-click="addCart(c.Name,c.Price)">Add</button></td>
 					<td>{{ c.Name }}</td>
 					<td align="right">{{ c.Price | currency  }}</td>
 				</tr>
 			</tbody>    
 			<thead>
+				<th></th>
 				<tr>
 					<th>Totale</th>
 					<th align="right">{{ getTotal()| currency }}</th>
