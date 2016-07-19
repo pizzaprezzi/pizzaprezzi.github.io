@@ -24,10 +24,10 @@ function MyController($scope, $http) {
     return total;
 }
 
- $scope.addItem = function () {
+ $scope.addItem = function (item) {
 	console.log("ciao");
         $scope.cart.push({
-            Name: 'DEMO PUSH',
+            Name: item.Name,
             Price: 1
         });
     };
