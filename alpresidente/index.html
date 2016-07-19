@@ -91,14 +91,12 @@
 			<thead>
 				<tr>
 					<td>Nome</td>
-					<td>Ingredienti</td>
 					<td ng-repeat="p in c.Prices">{{ p.Value }}</td>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="p in c.Entities">
-					<td>{{ p.Name }}</td>
-					<td><small ng-repeat="i in p.Items">{{ i.Value }},</small></td>
+					<td>{{ p.Name }}<p><small ng-repeat="i in p.Items">{{ i.Value }},</small></p></td>
 					<td ng-repeat="pr in p.Prices" align="right">{{ pr.Value| currency  }}</td>
 				</tr>
 			</tbody>    
