@@ -42,7 +42,7 @@ function OtherController($scope) {
   };
 }
 
-function addCart(Name,Price) {
+$scope.addItem = function (Name,Price) {
 	$scope.cart.push({
         Name: Name,
         Price: Price
