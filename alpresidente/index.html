@@ -90,7 +90,7 @@
 <div class="container">
 <ul class="nav nav-tabs">
 	<li ng-repeat="c in entity.Categories" ng-class="{'active':c.Alias === entity.Categories[0].Alias}"><a data-toggle="tab" href="#{{ c.Alias }}">{{ c.Name }}</a></li>
-	<li><a data-toggle="tab" href="#cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Carrello Demo {{ getTotal()|currency }}</a></li>
+	<li><a data-toggle="tab" href="#cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Preventivo {{ getTotal()|currency }}</a></li>
 </ul>
 
 <div class="tab-content">
@@ -112,7 +112,7 @@
 		</table>
 	</div>
 	<div id="cart" class="tab-pane fade">
-		<h3>Carrelo</h3>
+		<h3>Preventivo</h3>
 		<table class="table table-bordered table-responsive">
 			<thead>
 				<tr>
