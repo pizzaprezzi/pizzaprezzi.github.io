@@ -96,7 +96,7 @@
 			</thead>
 			<tbody>
 				<tr ng-repeat="p in c.Entities">
-					<td><b>{{ p.Name }}</b><p><small><span ng-repeat="i in p.Items">{{ i.Value }},</span></small></p></td>
+					<td><b>{{ p.Name }}</b><p><small><span ng-repeat="i in p.Items">{{ i.Value }}, </span></small></p></td>
 					<td ng-repeat="pr in p.Prices" align="right">{{ pr.Value| currency  }}</td>
 				</tr>
 			</tbody>    
