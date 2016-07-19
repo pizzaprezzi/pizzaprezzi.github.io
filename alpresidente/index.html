@@ -51,7 +51,7 @@
 <div class="container">
 
 <!-- menu -->
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse noprint">
 	<div class="container-fluid">
 		<div class="navbar-header">
 			<a class="navbar-brand" href="..">PizzaPrezzi</a>
@@ -79,12 +79,12 @@
 	<div class="list-group">
 	  <a href="tel:{{ c.Value }}" ng-repeat="c in entity.Contact" class="list-group-item"><h5><i class="fa fa-phone" aria-hidden="true"></i> Chiama {{ c.Value }}</h4></a>
 	</div>	
-	<div class="list-group">
+	<div class="list-group noprint" >
 	  <a href="{{ entity.Website }}" class="list-group-item"><h5><i class="fa fa-external-link" aria-hidden="true"></i> Sito Web</h4></a>
 	  <a href="https://maps.google.it/maps?q={{entity.Latitude}},{{entity.Longitude}}" class="list-group-item"><h5><i class="fa fa-map-o" aria-hidden="true"></i> Mappa</h4></a>
 	</div>	
 
-	<button type="button" class="btn btn-info " data-toggle="modal" data-target="#myMenu">Visualizza Depliant</button>
+	<button type="button" class="btn btn-info noprint" data-toggle="modal" data-target="#myMenu">Visualizza Depliant</button>
 </div>
 </div>
 <div class="container">
@@ -116,26 +116,27 @@
 		<table class="table table-bordered table-responsive">
 			<thead>
 				<tr>
-					<th></th>
+					<th class="noprint"></th>
 					<th>Nome</th>
 					<th>Prezzo</th>
 				</tr>
 			</thead>
 			<tbody>
 				<tr ng-repeat="c in cart">
-					<td><button class="btn btn-danger" ng-click="removeItem(c)"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button></td>
+					<td class="noprint"><button class="btn btn-danger" ng-click="removeItem(c)"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i></button></td>
 					<td>{{ c.Name }}</td>
 					<td align="right">{{ c.Price | currency  }}</td>
 				</tr>
 			</tbody>    
 			<thead>
 				<tr>
-					<th></th>
+					<th class="noprint"></th>
 					<th>Totale</th>
 					<td align="right"><b>{{ getTotal()| currency }}</b></td>
 				</tr>
 			</thead>			
 		</table>
+		<a class="btn btn-success noprint" href="javascript:window.print()">Stampa preventivo</a>
 	</div>	
 </div>
 </div>
