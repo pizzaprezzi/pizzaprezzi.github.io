@@ -88,7 +88,7 @@
 </div>
 </div>
 <div class="container">
-<ul class="nav nav-tabs">
+<ul class="nav nav-tabs noprint">
 	<li ng-repeat="c in entity.Categories" ng-class="{'active':c.Alias === entity.Categories[0].Alias}"><a data-toggle="tab" href="#{{ c.Alias }}">{{ c.Name }}</a></li>
 	<li><a data-toggle="tab" href="#cart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Preventivo {{ getTotal()|currency }}</a></li>
 </ul>
@@ -177,7 +177,7 @@
   </div>
 </div>
 
-<div ng-include="'../clausola.html'"></div>
+<div class="noprint" ng-include="'../clausola.html'"></div>
 <div ng-include="'../firma.html'"></div>  
   
 </body>
