@@ -28,7 +28,7 @@ function MyController($scope, $http) {
 	console.log("ciao");
         $scope.cart.push({
             Name: 'DEMO',
-            name: 0
+            Price: 0
         });
     };
 
