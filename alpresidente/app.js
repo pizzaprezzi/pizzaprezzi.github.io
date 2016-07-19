@@ -24,9 +24,13 @@ function MyController($scope, $http) {
     return total;
 }
 
-$scope.addItem = function() {
-	console.log('test');
-} 
+ $scope.addItem = function () {
+
+        $scope.cart.push({
+            Name: 'DEMO',
+            name: 0
+        });
+    };
 
  $http.get("entity.json")
     .then(function(response) {
