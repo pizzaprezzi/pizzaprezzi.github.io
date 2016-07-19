@@ -6,14 +6,7 @@ function MyController($scope, $http) {
 
   $scope.currentPage = 1;
   $scope.pageSize = 20;
-  $scope.cart = [{
-            "Name" : "Demo Riga 1",
-            "Price" : 10
-        },
-        {
-            "Name" : "Demo Riga 2",
-            "Price" : 5
-        }];
+  $scope.cart = [];
  
  $scope.getTotal = function(){
     var total = 0;
