@@ -8,9 +8,9 @@
 <meta property="og:type" content="website" />
 <meta property="og:title" content="PizzaPrezzi" />
 <meta property="og:description" content="Tutti i menu dei tuoi locali preferiti" />
-
-<meta property="og:image" content="https://scontent-mxp1-1.xx.fbcdn.net/v/t1.0-9/12744249_1072354536149986_931494052186889675_n.jpg?oh=f3a2e14e45d36a4e595d1a7080bae9ac&oe=58377475" />
-
+<!--
+<meta property="og:image" content="" />
+-->
 <meta name="keywords" content="menu, pizzeria, pizzaprezzi" />
 <meta name="description" content="Tutti i menu dei tuoi locali preferiti" />
 <meta property="fb:app_id" content="591996370950973" />
@@ -105,7 +105,7 @@
  <marker ng-repeat="item in items | orderBy:'Name'" 
       position="{{item.Latitude}},{{item.Longitude}}" title="{{item.Name}}"
       icon="{
-        url:'logo.jpg',
+        url:'{{ item.Alias }}/logo.jpg',
         scaledSize:[50,50],
         origin: [10,10],
         anchor: [25,25]
