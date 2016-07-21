@@ -4,7 +4,7 @@
 <head>
 <!-- meta og -->	
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:url" content="https://pizzaprezzi.github.io/" />
+<meta property="og:url" content="https://pizzaprezzi.it" />
 <meta property="og:type" content="website" />
 <meta property="og:title" content="PizzaPrezzi" />
 <meta property="og:description" content="Tutti i menu dei tuoi locali preferiti" />
@@ -104,12 +104,6 @@
  <ng-map style="height: 450px;" zoom-to-include-markers="auto">
  <marker ng-repeat="item in items | orderBy:'Name'" 
       position="{{item.Latitude}},{{item.Longitude}}" title="{{item.Name}}"
-      icon="{
-        url:'{{ item.Alias }}/logo.jpg',
-        scaledSize:[50,50],
-        origin: [10,10],
-        anchor: [25,25]
-      }"
       >
     </marker>  	
   </ng-map>
