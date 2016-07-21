@@ -103,7 +103,14 @@
         	
  <ng-map style="height: 450px;" zoom-to-include-markers="auto">
  <marker ng-repeat="item in items | orderBy:'Name'" 
-      position="{{item.Latitude}},{{item.Longitude}}" title="{{item.Name}}">
+      position="{{item.Latitude}},{{item.Longitude}}" title="{{item.Name}}"
+      icon="{
+        url:'https://scontent.xx.fbcdn.net/v/t1.0-1/c0.0.160.160/p160x160/1385522_626607690724675_985456403_n.jpg?oh=792d15c93ed85444f51f0d86c2c22b14&oe=58219363',
+        scaledSize:[50,50],
+        origin: [10,10],
+        anchor: [25,25]
+      }"
+      >
     </marker>  	
   </ng-map>
   
