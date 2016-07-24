@@ -1,0 +1,85 @@
+﻿{
+   "Version":1,
+   "Name":"La Teglia",
+   "Alias":"lateglia",
+   "Note":"",
+   "Address":"Via Monte Rosa 132 Desio",
+   "Latitude":"45.6184392",
+   "Longitude":"9.193701",
+   "Website":"https://www.facebook.com/La-Teglia-Desio-557802954393308/",
+   "Contact":[
+      {
+         "Value":"03621972430"
+      },
+      {
+         "Value":"346 4052750"
+      }
+   ],
+   "GalleryMenu":[
+      {
+         "Link":"page1.png",
+         "Note":""
+      },
+      {
+         "Link":"page2.png",
+         "Note":""
+      },
+      {
+         "Link":"page3.png",
+         "Note":""
+      },
+      {
+         "Link":"page4.png",
+         "Note":""
+      },
+      {
+         "Link":"page5.png",
+         "Note":""
+      },
+      {
+         "Link":"page6.png",
+         "Note":""
+      }
+   ],
+   "Categories":[
+      {
+         "Name":"Demo Menu Interattivo",
+         "Alias":"demo",
+         "Prices":[
+            {
+               "Value":"Rotonda o 1/4 teglia"
+            },
+            {
+               "Value":"1/2 teglia"
+            },
+            {
+               "Value":"Familiare o teglia"
+            }
+         ],
+         "Entities":[
+            {
+               "Name":"Focaccia Liscia",
+               "Items":[
+                  {
+                     "Value":"Olio"
+                  },
+                  {
+                     "Value":"Origano"
+                  }
+               ],
+               "Prices":[
+                  {
+                     "Value":2.5
+                  },
+                  {
+                     "Value":5.0
+                  },
+                  {
+                     "Value":9.0
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

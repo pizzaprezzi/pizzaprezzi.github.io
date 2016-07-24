@@ -40,8 +40,8 @@
   ],
   "Categories": [
     {
-      "Name": "Le nostre Pizze",
-      "Alias": "le_nostre_pizze",
+      "Name": "Demo Menu Interattivo",
+      "Alias": "demo",
       "Prices": [
         {
           "Value": "Prezzo"

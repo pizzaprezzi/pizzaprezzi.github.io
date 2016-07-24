@@ -1,35 +1,53 @@
 ﻿[
-  {
-    "Version": 1,
-    "Name": "Al Presidente",
-    "Alias": "alpresidente",
-    "Note": "",
-    "Address": "Via Pallavicini 42/B Desio",
-    "Latitude": "45.618737",
-    "Longitude": "9.1970984",
-    "Website": "https://www.facebook.com/Al-Presidente-625461680839276",
-    "Contact": [
-      {
-        "Value": "0362629985"
-      },
-      {
-        "Value": "3899947966"
-      }
-    ]
-  },
-  {
-    "Version": 1,
-    "Name": "Troppo Napoletani",
-    "Alias": "troppo_napoletani",
-    "Note": "",
-    "Address": "Via Giuseppe Garibaldi 144 Desio",
-    "Latitude": "45.612774",
-    "Longitude": "9.205353",
-    "Website": "https://www.facebook.com/tropponapoletanipizzeria",
-    "Contact": [
-      {
-        "Value": "0362 050911"
-      }
-    ]
-  }
+   {
+      "Version":1,
+      "Name":"Al Presidente",
+      "Alias":"alpresidente",
+      "Note":"",
+      "Address":"Via Pallavicini 42/B Desio",
+      "Latitude":"45.618737",
+      "Longitude":"9.1970984",
+      "Website":"https://www.facebook.com/Al-Presidente-625461680839276",
+      "Contact":[
+         {
+            "Value":"0362629985"
+         },
+         {
+            "Value":"3899947966"
+         }
+      ]
+   },
+   {
+      "Version":1,
+      "Name":"Troppo Napoletani",
+      "Alias":"troppo_napoletani",
+      "Note":"",
+      "Address":"Via Giuseppe Garibaldi 144 Desio",
+      "Latitude":"45.612774",
+      "Longitude":"9.205353",
+      "Website":"https://www.facebook.com/tropponapoletanipizzeria",
+      "Contact":[
+         {
+            "Value":"0362 050911"
+         }
+      ]
+   },
+   {
+      "Version":1,
+      "Name":"La Teglia",
+      "Alias":"lateglia",
+      "Note":"",
+      "Address":"Via Monte Rosa 132 Desio",
+      "Latitude":"45.6184392",
+      "Longitude":"9.193701",
+      "Website":"https://www.facebook.com/La-Teglia-Desio-557802954393308/",
+      "Contact":[
+         {
+            "Value":"03621972430"
+         },
+         {
+            "Value":"346 4052750"
+         }
+      ]
+   }
 ]
