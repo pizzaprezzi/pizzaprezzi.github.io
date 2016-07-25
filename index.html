@@ -102,7 +102,7 @@
         <div class="modal-body">
         	
  <ng-map style="height: 450px;" zoom-to-include-markers="auto" center="current-location">
- <marker position="current" animation="Animation.BOUNCE" centered="true"></marker> 	
+ <marker position="current" animation="Animation.BOUNCE" centered="true" title="La tua posizione"></marker> 	
  <marker ng-repeat="item in items | orderBy:'Name'" 
       position="{{item.Latitude}},{{item.Longitude}}" title="{{item.Name}}"
       >
