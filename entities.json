@@ -31,23 +31,5 @@
             "Value":"0362 050911"
          }
       ]
-   },
-   {
-      "Version":1,
-      "Name":"La Teglia",
-      "Alias":"lateglia",
-      "Note":"",
-      "Address":"Via Monte Rosa 132 Desio",
-      "Latitude":"45.6184392",
-      "Longitude":"9.193701",
-      "Website":"https://www.facebook.com/La-Teglia-Desio-557802954393308/",
-      "Contact":[
-         {
-            "Value":"03621972430"
-         },
-         {
-            "Value":"346 4052750"
-         }
-      ]
    }
 ]
