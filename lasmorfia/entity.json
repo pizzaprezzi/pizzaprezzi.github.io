@@ -1,0 +1,87 @@
+﻿{
+   "Version":1,
+   "Name":"La Smorfia Napoletana",
+   "Alias":"lasmorfia",
+   "Note":"",
+   "Address":"Via Giuseppe Verdi, 10, 20832 Desio MB",
+   "Latitude":"45.6144557",
+   "Longitude":"9.2038787",
+   "Website":"",
+   "Contact":[
+      {
+         "Value":"0362 306111"
+      },
+      {
+         "Value":"327 6866529"
+      },
+      {
+         "Value":"388 9746909"
+      }
+   ],
+   "GalleryMenu":[
+      {
+         "Link":"page1.png",
+         "Note":""
+      },
+      {
+         "Link":"page2.png",
+         "Note":""
+      },
+      {
+         "Link":"page3.png",
+         "Note":""
+      },
+      {
+         "Link":"page4.png",
+         "Note":""
+      },
+      {
+         "Link":"page5.png",
+         "Note":""
+      },
+      {
+         "Link":"page6.png",
+         "Note":""
+      },
+      {
+         "Link":"page7.png",
+         "Note":""
+      },
+      {
+         "Link":"page8.png",
+         "Note":""
+      }
+   ],
+   "Categories":[
+      {
+         "Name":"Demo Menu Interattivo",
+         "Alias":"demo",
+         "Prices":[
+            {
+               "Value":"Normale"
+            }
+         ],
+         "Entities":[
+            {
+               "Name":"2003",
+               "Items":[
+                  {
+                     "Value":"Pomodoro"
+                  },
+                  {
+                     "Value":"Mozzarella"
+                  },
+                  {
+                     "Value":"Patatine fritte"
+                  }
+               ],
+               "Prices":[
+                  {
+                     "Value":6
+                  }
+               ]
+            }
+         ]
+      }
+   ]
+}

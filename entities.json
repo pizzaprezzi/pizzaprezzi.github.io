@@ -49,5 +49,26 @@
             "Value":"346 4052750"
          }
       ]
-   }
+   },
+{
+   "Version":1,
+   "Name":"La Smorfia Napoletana",
+   "Alias":"lasmorfia",
+   "Note":"",
+   "Address":"Via Giuseppe Verdi, 10, 20832 Desio MB",
+   "Latitude":"45.6144557",
+   "Longitude":"9.2038787",
+   "Website":"",
+   "Contact":[
+      {
+         "Value":"0362 306111"
+      },
+      {
+         "Value":"327 6866529"
+      },
+      {
+         "Value":"388 9746909"
+      }
+   ]
+}
 ]
